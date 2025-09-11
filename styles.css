@@ -27,3 +27,7 @@ h1 {
   color: red;
   font-weight: bold;
 }
+mark { 
+  background-color: FFA500;
+  color: black;
+}
