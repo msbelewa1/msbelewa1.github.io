@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+}
+
+.book-image {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 250px;
+}
+
+.blue {
+  color: blue;
+  text-decoration: underline;
+}
+
+.red {
+  color: red;
+}
+
+.red-bold {
+  color: red;
+  font-weight: bold;
+}
