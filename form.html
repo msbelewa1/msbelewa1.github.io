@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Assignment</title>
+</head>
+<body>
+    <form id="userForm">
+        <div class="form-group">
+            <label for="username" id="usernameLabel">Username:</label>
+            <input type="text" id="username" name="username">
+            <div id="usernameError"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="email" id="emailLabel">Email:</label>
+            <input type="text" id="email" name="email">
+            <div id="emailError"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="phone" id="phoneLabel">Phone number:</label>
+            <input type="text" id="phone" name="phone">
+            <div id="phoneError"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="password" id="passwordLabel">Enter Password:</label>
+            <input type="password" id="password" name="password">
+            <div id="passwordError"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword" id="confirmPasswordLabel">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <div id="confirmPasswordError"></div>
+        </div>
+
+        <div class="form-group">
+            <label id="genderLabel">Gender:</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female" style="width: auto; margin-right: 10px;">Female</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male" style="width: auto; margin-right: 10px;">Male</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other" style="width: auto;">Other</label>
+            <div id="genderError"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="ageGroup" id="ageGroupLabel">Age Group:</label>
+            <select id="ageGroup" name="ageGroup">
+                <option value=""></option>
+                <option value="< 21 years old">< 21 years old</option>
+                <option value="21 - 25 years old">21 - 25 years old</option>
+                <option value="26 - 35 years old">26 - 35 years old</option>
+                <option value="36 - 50 years old">36 - 50 years old</option>
+                <option value="< 50 years old">< 50 years old</option>
+            </select>
+            <div id="ageGroupError"></div>
+        </div>
+
+        <div class="form-group">
+            <label id="musicLabel">Favorite Music Genre:</label>
+            <div style="display: inline-block; vertical-align: top;">
+                <input type="checkbox" id="pop" name="music" value="Pop">
+                <label for="pop" style="width: auto; margin-right: 10px;">Pop</label>
+                <input type="checkbox" id="hiphop" name="music" value="Hiphop">
+                <label for="hiphop" style="width: auto; margin-right: 10px;">Hiphop</label>
+                <input type="checkbox" id="jazz" name="music" value="Jazz">
+                <label for="jazz" style="width: auto; margin-right: 10px;">Jazz</label><br>
+                <input type="checkbox" id="rock" name="music" value="Rock">
+                <label for="rock" style="width: auto; margin-right: 10px;">Rock</label>
+                <input type="checkbox" id="classical" name="music" value="Classical Music">
+                <label for="classical" style="width: auto; margin-right: 10px;">Classical Music</label>
+                <input type="checkbox" id="country" name="music" value="Country">
+                <label for="country" style="width: auto;">Country</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="button" id="submitBtn">submit</button>
+            <button type="reset" id="clearBtn">clear</button>
+        </div>
+    </form>
+
+    <script src="validation.js"></script>
+</body>
+</html>
