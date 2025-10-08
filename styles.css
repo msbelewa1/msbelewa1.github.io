@@ -1,33 +1,36 @@
 body {
-  font-family: Times New Roman;
-  margin: 40px;
-  line-height: 1.6;
-}
-
-h1 {
-  text-align: center;
-}
-
-.book-image {
-  display: block;
-  margin: 0 auto 20px auto;
-  width: 250px;
-}
-
-.blue {
-  color: blue;
-  text-decoration: underline;
-}
-
-.red {
-  color: red;
-}
-
-.red-bold {
-  color: red;
-  font-weight: bold;
-}
-mark { 
-  background-color: #FFA500;
-  color: black;
-}
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            width: 180px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: 200px;
+            padding: 5px;
+        }
+        .error-message {
+            color: red;
+            margin-left: 190px;
+            font-size: 14px;
+        }
+        .warning-message {
+            color: orange;
+            margin-left: 190px;
+            font-size: 14px;
+        }
+        button {
+            margin-left: 190px;
+            padding: 8px 20px;
+            margin-right: 10px;
+        }
